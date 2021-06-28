@@ -30,13 +30,6 @@ Optionally, you can pass the name of the engine as argument. The following engin
 - `webkit`
 - `edge`
 
-
-## Related
-
-- [arvis-updater](https://github.com/samverschueren/arvis-updater) - Workflow updater
-- [arvish](https://github.com/sindresorhus/arvish) - Create arvis workflows with ease
-
-
 ## License
 
 MIT © [Sam Verschueren](https://github.com/SamVerschueren)
