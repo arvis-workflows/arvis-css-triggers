@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+  "category": "",
+  "creator": "Sam Verschueren",
+  "name": "css-triggers",
+  "readme": "",
+  "defaultIcon": "icon.png",
+  "enabled": true,
+  "commands": [
+    {
+      "type": "scriptFilter",
+      "command": "css",
+      "title": "Search the CSS trigger",
+      "subtitle": "",
+      "scriptFilter": "node index.js \"{query}\"",
+      "runningSubtext": "Searching...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "{query}"
+        }
+      ]
+    }
+  ]
+}

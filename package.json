@@ -1,0 +1,48 @@
+{
+  "name": "arvis-css-triggers",
+  "version": "0.0.1",
+  "description": "Arvis workflow to search through csstriggers.com",
+  "license": "MIT",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "icons",
+    "icon.png",
+    "info.plist",
+    "arvis-workflow.json"
+  ],
+  "keywords": [
+    "arvis",
+    "workflow",
+    "arvish",
+    "csstriggers",
+    "css",
+    "triggers",
+    "layout",
+    "paint",
+    "composite",
+    "pipeline",
+    "performance"
+  ],
+  "dependencies": {
+    "arvish": ">=0.3.3",
+    "repeating": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
