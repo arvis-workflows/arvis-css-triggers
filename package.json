@@ -1,6 +1,6 @@
 {
   "name": "arvis-css-triggers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Arvis workflow to search through csstriggers.com",
   "license": "MIT",
   "author": {
@@ -38,10 +38,11 @@
     "performance"
   ],
   "dependencies": {
-    "arvish": ">=0.3.3",
+    "arvish": ">=0.3.6",
     "repeating": "^3.0.0"
   },
   "devDependencies": {
+    "arvish-test": "0.0.2",
     "ava": "*",
     "xo": "*"
   }
