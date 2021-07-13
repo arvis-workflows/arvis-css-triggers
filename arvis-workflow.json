@@ -4,10 +4,10 @@
   "creator": "Sam Verschueren",
   "name": "arvis-css-triggers",
   "readme": "",
-  "description": "Arvis workflow to search through csstriggers.com",
-  "webAddress": "https://github.com/arvis-workflows/arvis-css-triggers",
   "version": "0.0.2",
   "defaultIcon": "icon.png",
+  "description": "Arvis workflow to search through csstriggers.com",
+  "webAddress": "https://github.com/jopemachine/arvis-css-triggers",
   "enabled": true,
   "commands": [
     {

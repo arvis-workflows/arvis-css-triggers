@@ -41,6 +41,7 @@
     "repeating": "^3.0.0"
   },
   "devDependencies": {
+    "arvish-test": "0.0.2",
     "ava": "*",
     "xo": "*"
   }
