@@ -2,8 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "category": "",
   "creator": "Sam Verschueren",
-  "name": "css-triggers",
+  "name": "arvis-css-triggers",
   "readme": "",
+  "description": "Arvis workflow to search through csstriggers.com",
+  "webAddress": "https://github.com/arvis-workflows/arvis-css-triggers",
+  "version": "0.0.2",
   "defaultIcon": "icon.png",
   "enabled": true,
   "commands": [
